@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class startact extends AppCompatActivity {
     SharedPreferences sharedpreferences;
@@ -24,16 +25,23 @@ public class startact extends AppCompatActivity {
         String ph=t2.getText().toString();
         EditText t3=findViewById(R.id.editText2);
         String aa=t3.getText().toString();
-        SharedPreferences.Editor editor = sharedpreferences.edit();
-        editor.putString("name", n);
-        editor.putString("phone", ph);
-        editor.putString("aadhar", aa);
-        editor.putBoolean("first",true);
-        editor.commit();
+        if(ph.length()==10 && aa.length()==12) {
+            SharedPreferences.Editor editor = sharedpreferences.edit();
 
-        
-        Intent w=new Intent(this,Main2Activity.class);
-        startActivity(w);
+            editor.putString("name", n);
+            editor.putString("phone", ph);
+            editor.putString("aadhar", aa);
+            editor.putBoolean("first", true);
+            editor.commit();
+
+
+            Intent w = new Intent(this, Main2Activity.class);
+            startActivity(w);
+        }
+        else
+        {
+            Toast.makeText(getApplicationContext(),)
+        }
 
     }
 }
