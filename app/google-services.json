@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "337921156525",
+    "firebase_url": "https://sosburla.firebaseio.com",
+    "project_id": "sosburla",
+    "storage_bucket": "sosburla.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:337921156525:android:3beeb232942a49b0",
+        "android_client_info": {
+          "package_name": "com.women.sosburla"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "337921156525-ttfrckijf2ilu7lpovlenq0l9ueea46p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.women.sosburla",
+            "certificate_hash": "71f1432a75176f39d3152316f8c555245deb84a5"
+          }
+        },
+        {
+          "client_id": "337921156525-g57qg8h0hne87l0epvm7clv4o9riqhsa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFQQS81LBpnBxE5h2hdDEfiWVe-gWfaps"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "337921156525-g57qg8h0hne87l0epvm7clv4o9riqhsa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

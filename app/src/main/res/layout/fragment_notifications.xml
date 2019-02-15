@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton6"
+        android:layout_width="38dp"
+        android:layout_height="37dp"
+        android:clickable="true"
+        app:backgroundTint="@color/colorPrimary"
+        app:layout_constraintEnd_toStartOf="@+id/floatingActionButton16"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/floatingActionButton20"
+        app:layout_constraintTop_toTopOf="@+id/floatingActionButton20"
+        app:srcCompat="@android:drawable/ic_notification_overlay" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton20"
+        android:layout_width="38dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="8dp"
+        android:clickable="true"
+        app:backgroundTint="@color/colorPrimary"
+        app:layout_constraintEnd_toStartOf="@+id/floatingActionButton6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:srcCompat="@android:drawable/ic_notification_overlay" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton18"
+        android:layout_width="38dp"
+        android:layout_height="37dp"
+        android:clickable="true"
+        app:backgroundTint="@color/colorPrimary"
+        app:layout_constraintEnd_toStartOf="@+id/floatingActionButton19"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/floatingActionButton14"
+        app:layout_constraintTop_toTopOf="@+id/floatingActionButton14"
+        app:srcCompat="@android:drawable/ic_notification_overlay" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton19"
+        android:layout_width="38dp"
+        android:layout_height="37dp"
+        android:clickable="true"
+        app:backgroundTint="@color/colorPrimary"
+        app:layout_constraintEnd_toStartOf="@+id/floatingActionButton13"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/floatingActionButton18"
+        app:layout_constraintTop_toTopOf="@+id/floatingActionButton18"
+        app:srcCompat="@android:drawable/ic_notification_overlay" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton15"
+        android:layout_width="41dp"
+        android:layout_height="36dp"
+        android:clickable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/floatingActionButton12"
+        app:layout_constraintTop_toTopOf="@+id/floatingActionButton12"
+        app:srcCompat="@android:drawable/presence_online" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton16"
+        android:layout_width="41dp"
+        android:layout_height="36dp"
+        android:clickable="true"
+        app:layout_constraintEnd_toStartOf="@+id/floatingActionButton12"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/floatingActionButton6"
+        app:layout_constraintTop_toTopOf="@+id/floatingActionButton6"
+        app:srcCompat="@android:drawable/presence_online" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton17"
+        android:layout_width="41dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="8dp"
+        android:clickable="true"
+        app:layout_constraintEnd_toStartOf="@+id/floatingActionButton14"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/floatingActionButton20"
+        app:srcCompat="@android:drawable/presence_online" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton12"
+        android:layout_width="41dp"
+        android:layout_height="36dp"
+        android:clickable="true"
+        app:layout_constraintEnd_toStartOf="@+id/floatingActionButton15"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/floatingActionButton16"
+        app:layout_constraintTop_toTopOf="@+id/floatingActionButton16"
+        app:srcCompat="@android:drawable/presence_online" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton13"
+        android:layout_width="41dp"
+        android:layout_height="36dp"
+        android:clickable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/floatingActionButton19"
+        app:layout_constraintTop_toTopOf="@+id/floatingActionButton19"
+        app:srcCompat="@android:drawable/presence_online" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton14"
+        android:layout_width="41dp"
+        android:layout_height="36dp"
+        android:clickable="true"
+        app:layout_constraintEnd_toStartOf="@+id/floatingActionButton18"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/floatingActionButton17"
+        app:layout_constraintTop_toTopOf="@+id/floatingActionButton17"
+        app:srcCompat="@android:drawable/presence_online" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="290dp"
+        android:layout_height="222dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/floatingActionButton17"
+        app:srcCompat="@android:drawable/sym_def_app_icon" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="NUMBERS OF PEOPLE HELPED : 00"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Reward System"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+</android.support.constraint.ConstraintLayout>
