@@ -40,7 +40,7 @@ public class startact extends AppCompatActivity {
         }
         else
         {
-            Toast.makeText(getApplicationContext(),"Error in values",Toast.LENGTH_LONG);
+            Toast.makeText(getApplicationContext(),"Error in values",Toast.LENGTH_LONG).show();
         }
 
     }
